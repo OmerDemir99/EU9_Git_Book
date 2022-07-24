@@ -7,3 +7,8 @@ It is a special type of method which is used to initialize the object.
 Every time an object is created using the new() keyword, at least one constructor is called.
 It calls a default constructor if there is no constructor available in the class.
 In such case, Java compiler provides a default constructor by default.
+There are two types of constructors in Java: no-arg constructor, and parameterized constructor.
+
+Note: It is called constructor because it constructs the values at the time of object creation.
+It is not necessary to write a constructor for a class.
+It is because java compiler creates a default constructor if your class doesn't have any.
